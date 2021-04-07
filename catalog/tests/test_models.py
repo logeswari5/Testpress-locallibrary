@@ -1,5 +1,5 @@
 from django.test import TestCase
-from catalog.models import Authr
+from catalog.models import Author
 class YourTestClass(TestCase):
     @classmethod
     def setUpTestData(cls):
@@ -21,6 +21,7 @@ class YourTestClass(TestCase):
     def test_one_plus_one_equals_two(self):
         print("Method: test_one_plus_one_equals_two.")
         self.assertEqual(1 + 1, 2)
+
 class AuthorModelTest(TestCase):
     @classmethod
     def setUpTestData(cls):
